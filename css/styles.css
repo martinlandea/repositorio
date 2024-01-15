@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: lightgray ;
+}
+
+.list-item {
+    list-style: none ;
+    display: inline;
+    margin-right: 10px;
+    border: 1px;
+}
+.list-item a {
+    text-decoration: none;
+    color: black;
+    border: 1px;
+    border-style: solid;
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+    text-align: center;
+}
+
+article{
+
+    font-size: 40px;
+    color: black;
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin: 8px;
+}
+
+.tarjeta{
+    width: 300px;
+    border: 1cm solid black;
+    border-radius: 1px;
+    padding: 10px;
+    border: 0px;
+    margin: 1px;
+    
+}
+
+.tarjeta img{
+    width: 300px;
+    align-items: stretch;
+    
+}
+.tarjeta h4{
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    font-size: 24px;
+}
+.tarjeta p{
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+    font-size: 24px;
+}
+.tarjeta-boton {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.tarjetas-equipo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+@media  only screen and (max-width: 500px) {
+    body{
+        background-color: lightgray;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+body {
+background-color: lightgray;
+} 
+}
+
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: lightgray;
+    }
+}   
+
+header img {
+    max-width:100%;
+    max-height:100%;
+
+}
+
+
+
+.grid-container{
+    border: 1px solid black;
+    height: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1;
+    grid-template-areas: 
+    "logo navbar";
+
+    
+    
+}
+.logo{
+    grid-area: logo;
+    background-color: lightgray;
+    margin: 1px;
+    border: 1px solid black;
+    
+}
+.navbar{
+    grid-area: navbar;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px;
+    border: 1px solid black;
+
+}
+
+header img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 20px
+    
+
+}
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+.parrafo-inicio{
+    background-color: lightgrey;
+    font-size: 14px;
+}
