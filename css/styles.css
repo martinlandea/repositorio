@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,6 +7,7 @@
 }
 body{
     background-color: lightgray ;
+    font-family: 'Sora', sans-serif;
 }
 
 .list-item {
@@ -107,8 +110,8 @@ background-color: lightgray;
 
 
 header img {
-    max-width:100%;
-    max-height:100%;
+    max-width:50%;
+    max-height:50%;
 
 }
 
@@ -137,7 +140,7 @@ header img {
     grid-area: navbar;
     background-color: lightgray;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 1px;
     border: 1px solid black;
@@ -165,4 +168,9 @@ header img{
 .parrafo-inicio{
     background-color: lightgrey;
     font-size: 14px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
 }
