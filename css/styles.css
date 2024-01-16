@@ -25,8 +25,9 @@ body{
 
 h1{
     color: black;
-    font-size: 80px;
+    font-size: 2em;
     text-align: center;
+    margin: 0.5em 0;
 }
 
 article{
@@ -92,24 +93,35 @@ footer{
 @media  only screen and (max-width: 500px) {
     body{
         background-color: lightgray;
+        font-size: 16px;
+        padding: 30px;
     }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 960px) {
 body {
 background-color: lightgray;
+font-size: 16px;
+padding: 20px;
 } 
 }
 
 @media only screen and (min-width: 961px) {
     body {
         background-color: lightgray;
+        font-size: 16px;
+        padding: 10px;
     }
 }   
 @media only screen and (max-widht:600px){
     .navbar {
         flex-direction: column;
         align-items: center;
+    }
+}
+@media  only screen and (max-width: 500px) {
+    h1{
+        font-size: 1.5em;
     }
 }
 
