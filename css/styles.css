@@ -106,6 +106,12 @@ background-color: lightgray;
         background-color: lightgray;
     }
 }   
+@media only screen and (max-widht:600px){
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 
