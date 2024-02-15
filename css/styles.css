@@ -3,11 +3,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
     
 }
 body{
     background-color: #DBBD2A ;
     font-family: 'Sora', sans-serif;
+    padding: 90px 20px 0;
 }
 
 
@@ -101,18 +104,78 @@ footer p {
 
 }
 
+
+.parrafo-inicio{
+    background-color: #A8BBBF;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+h2 {
+   color: #A6855D; 
+}
+
+h3{
+    color: #A64037;
+}
+
+section  {
+    width: 700px;
+    padding: 40px;
+    background: #A8BBBF;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+summary{
+    background-color:#A8BBBF ;
+    color:#A64037 ;
+    padding: 20 px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.carousel-item img{
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.colorbarra{
+    color:#A64037 ;
+}
+
+.navbar {
+    background-color: #A8BBBF;
+    
+  }
+
+
+
 @media  only screen and (max-width: 500px) {
     body{
         background-color: #A8BBBF;
-        font-size: 16px;
+        font-size: 20px;
         padding: 30px;
+        
     }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 960px) {
 body {
 background-color: #A8BBBF;
-font-size: 16px;
+font-size: 18px;
 padding: 20px;
 } 
 }
@@ -124,63 +187,3 @@ padding: 20px;
         padding: 10px;
     }
 }   
-
-.parrafo-inicio{
-    background-color: #A8BBBF;
-    font-size: 14px;
-    text-align: center;
-}
-
-header{
-    display: flex;
-    min-height: 70px; 
-    justify-content:space-between ;
-    background-color: #A8BBBF;
-    align-items: center;
-    padding: 10px;
-    
-
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.logo img{
-    height: 50px;
-}
-a{
-    text-decoration: none;
-    color: #A64833;
-    border: 1px solid black;
-}
-
-nav a{
-    font-weight: 600px;
-    padding-right: 10px;
-
-}
-
-nav a:hover{
-    color: #A6855D;
-}
-
-@media (max-width:700px){
-    header{
-        flex-direction: column;
-    }
-
-    nav {
-        padding: 10px 0px;
-    }
-}
-
-h2 {
-   color: #A6855D; 
-}
-
-h3{
-    color: #A64037;
-}
